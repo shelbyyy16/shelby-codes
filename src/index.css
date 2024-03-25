@@ -1,7 +1,21 @@
 :root {
   background-color: #6C8793;
-
 }
+
+
+.nav-wrapper{
+  background-color: #6C8793;
+}
+
+#footer {
+  background-color: #6C8793;
+}
+
+#logo {
+  margin: 0.5rem;
+  margin-left: 1rem;
+}
+
 
 
 
@@ -23,6 +37,7 @@
 grey: #EEEDEB
 peach: #E1CCBE
 blue: #6C8793
+dark blue: #415660
 black: #000000 
 
 FONT:

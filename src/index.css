@@ -4,7 +4,9 @@
 
 
 .nav-wrapper{
-  background-color: #6C8793;
+  margin: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 #footer {
@@ -12,11 +14,51 @@
 }
 
 #logo {
-  margin: 0.5rem;
-  margin-left: 1rem;
+  width: auto;
+  max-width: 100%;
+  max-height: 50px; 
 }
 
+#link {
+  color:#E1CCBE;
+}
 
+/*LANDING PAGE */
+
+#landing-container {
+  border: 2px solid red;
+  width: 80%;
+  height: fit-content;
+  background-color: #6C8793;
+}
+
+#landing-info {
+  
+}
+
+#landing-image {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+
+#landing-quote-container{
+  border: 2px solid yellow;
+  background-color: #E1CCBE;
+  padding: 8%;
+  text-align: center;
+}
+
+#portfolio-carousel {
+  border: 2px solid green;
+  background-color: #EEEDEB;
+  justify-content: space-around;
+}
+
+#carousel-item {
+  height: 40rem;
+  width: auto;
+}
 
 
 @media (prefers-color-scheme: light) {

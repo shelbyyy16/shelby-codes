@@ -6,21 +6,21 @@ function Home() {
     <div className="row" id="landing-container">
     <div id="landing-info" className="col s6">
       <h1>Hi, I am Shelby</h1>
-      <h4>As a Full Stack Developer and Critical Care Nurse, I enjoy using my diverse experiences to help create solutions that matter.</h4>
-      <Link to="/about"><button>About Me</button></Link>
+      <h5>As a Full Stack Developer and Critical Care Nurse, I enjoy using my diverse experiences to help create solutions that matter.</h5>
+      <Link to="/about"><button id="primary-button">About Me</button></Link>
     </div>
       <div className="col s6">
-        <img src="/images/landing.jpg" alt="Image" id="landing-image"></img>
+        <img src="/images/landing.png" alt="Image" id="landing-image"></img>
       </div>
     </div>
     <div id="landing-quote-container">
       <h4>My journey is a testament to the idea that career transitions are possible with determination and a commitment to learning.</h4>
       </div>
-      <div id="portfolio-carousel" className="row"> 
-    <div className="col s4"><img src="/images/CartQuestMockUp.png" id="carousel-item"></img></div>
-    <div className="col s4"><img src="/images/PetalsandPots MockUp.png" id="carousel-item"></img></div>
-    <div className="col s4"><img src="/images/SPLITMockUp.png" id="carousel-item"></img></div>
-    <div className="col s12" style={{display: 'flex', justifyContent: 'center'}}><Link to="projects"><button>View My Portfolio</button></Link></div>
+      <div id="landing-portfolio" className="row"> 
+    <div className="col s4"><img src="/images/CartQuestMockUp.png" id="landing-portfolio-item"></img></div>
+    <div className="col s4"><img src="/images/PetalsandPots MockUp.png" id="landing-portfolio-item"></img></div>
+    <div className="col s4"><img src="/images/SPLITMockUp.png" id="landing-portfolio-item"></img></div>
+    <div className="col s12" id="landing-portfolio-button" style={{display: 'flex', justifyContent: 'center'}}><Link to="projects"><button id="secondary-button">View My Portfolio</button></Link></div>
   </div>
   
      

@@ -2,7 +2,20 @@
   background-color: #6C8793;
 }
 
+body {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
+h1 {
+  color: #E1CCBE;
+  
+}
+
+h5 {
+  color: #EEEDEB;
+}
 .nav-wrapper{
   margin: 2rem;
   margin-top: 1rem;
@@ -33,13 +46,13 @@
 }
 
 #landing-info {
-  
+  padding: 6rem;
 }
 
 #landing-image {
   width: 100%;
-  height: auto;
-  padding: 1rem;
+  height: 100%;
+  
 }
 
 #landing-quote-container{
@@ -49,15 +62,59 @@
   text-align: center;
 }
 
-#portfolio-carousel {
+#landing-portfolio {
   border: 2px solid green;
   background-color: #EEEDEB;
   justify-content: space-around;
+  padding: 1rem;
+  padding-top: 8rem;
 }
 
-#carousel-item {
+#landing-portfolio-item {
   height: 40rem;
   width: auto;
+}
+
+#landing-portfolio-button {
+  padding: 6rem;
+}
+
+#primary-button {
+  background-color: #6C8793;
+  border: 2px solid #E1CCBE;
+  color: #E1CCBE;
+  font-size: larger;
+  font-family: "Libre Caslon Text", serif;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+#primary-button:hover{
+background-color: #E1CCBE;
+color: black;
+border: 2px solid #E1CCBE;
+}
+
+#secondary-button {
+    background-color: black;
+    border: 2px solid black;
+    color: #EEEDEB;
+    font-size: larger;
+    font-family: "Libre Caslon Text", serif;
+    padding: 2rem 2.5rem 2rem 2.5rem;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+
+#secondary-button:hover{
+  background-color: #EEEDEB;
+  color: black;
+  border: 2px solid black;
 }
 
 

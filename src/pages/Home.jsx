@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-      <div className="row" id="landing-container">
+      <div className="row container" id="landing">
         <div id="landing-info" className="col s6">
           <h1>Hi, I am Shelby</h1>
           <h5>
@@ -19,7 +19,7 @@ function Home() {
         </div>
       </div>
 
-      <div id="landing-quote-container">
+      <div id="landing-quote">
         <h4>
           My journey is a testament to the idea that career transitions are
           possible with determination and a commitment to learning.

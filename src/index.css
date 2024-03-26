@@ -45,24 +45,19 @@ h5 {
 
 /*LANDING PAGE */
 
-#landing-container {
-  border: 2px solid red;
+.container {
   width: 100%;
-  height: fit-content;
+  max-width: 2000px;
+  margin: 0;
+  padding: 0;
+}
+
+#landing{
+  border: 2px solid red;
   background-color: #6C8793;
 }
 
-#landing-info {
-  padding: 6rem;
-}
-
-#landing-image {
-  width: 100%;
-  height: auto;
-  
-}
-
-#landing-quote-container{
+#landing-quote{
   border: 2px solid yellow;
   background-color: #E1CCBE;
   padding: 8%;
@@ -76,6 +71,17 @@ h5 {
   padding: 1rem;
   padding-top: 8rem;
 }
+
+#landing-info {
+  padding: 16rem 8rem 16rem 16rem;
+}
+
+#landing-image {
+  width: 100%;
+  height: auto;
+  padding: 8rem 8rem 8rem 2rem;
+}
+
 
 #landing-portfolio-item {
   height: 40rem;
@@ -144,24 +150,33 @@ border: 2px solid #E1CCBE;
 
 /* xs */
 @media (max-width: 475px) {
- #landing-container {
+ .container {
   max-width: 475px;
  }
 }
 /* sm  */
 @media (max-width: 640px) {
-
+  .container {
+    max-width: 640px;
+   }
 }
 /* md  */
 @media (max-width: 768px) {
-
+  .container {
+    max-width: 768px;
+   }
 }
 /* lg  */
 @media (max-width: 1024px) {
-
+  .container {
+    max-width: 1024px;
+   }
 }
 /* xl  */
 @media (max-width: 1280px) {
+  .container {
+    max-width: 1280px;
+   }
   h1 {
     font-size: 2rem;
   }
@@ -174,6 +189,9 @@ border: 2px solid #E1CCBE;
 }
 /* 2xl  */
 @media (max-width: 1600px) {
+  .container {
+    max-width: 1600px;
+   }
   h1 {
     font-size: 3rem;
   }

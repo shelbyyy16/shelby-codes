@@ -51,7 +51,7 @@ h5 {
 
 #landing-image {
   width: 100%;
-  height: 100%;
+  height: auto;
   
 }
 
@@ -121,15 +121,52 @@ border: 2px solid #E1CCBE;
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #6C8793;
   }
   a:hover {
-    color: #747bff;
+    color: #E1CCBE;
   }
   button {
     background-color: #f9f9f9;
   }
+
 }
+@media (max-width: 1600px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  h5 {
+    font-size: 1.5;
+  }
+}
+
+@media (max-width: 1270px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 995px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.5rem;
+  }
+}
+
 
 
 /* white: #FFFFFF

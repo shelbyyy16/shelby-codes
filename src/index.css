@@ -8,21 +8,21 @@ body {
   font-style: normal;
 }
 
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-h1 {
+
+h1, h2 {
   color: #E1CCBE;
+  margin:0rem;
+  padding-left: 0.5rem;
   
 }
 
-h5 {
+h5, h6 {
   color: #EEEDEB;
+  padding: 0.5rem;
 }
+
+
+
 .nav-wrapper{
   margin: 2rem;
   margin-top: 1rem;
@@ -41,55 +41,6 @@ h5 {
 
 #link {
   color:#E1CCBE;
-}
-
-/*LANDING PAGE */
-
-.container {
-  width: 100%;
-  max-width: 2000px;
-  margin: 0;
-  padding: 0;
-}
-
-#landing{
-  border: 2px solid red;
-  background-color: #6C8793;
-}
-
-#landing-quote{
-  border: 2px solid yellow;
-  background-color: #E1CCBE;
-  padding: 8%;
-  text-align: center;
-}
-
-#landing-portfolio {
-  border: 2px solid green;
-  background-color: #EEEDEB;
-  justify-content: space-around;
-  padding: 1rem;
-  padding-top: 8rem;
-}
-
-#landing-info {
-  padding: 16rem 8rem 16rem 16rem;
-}
-
-#landing-image {
-  width: 100%;
-  height: auto;
-  padding: 8rem 8rem 8rem 2rem;
-}
-
-
-#landing-portfolio-item {
-  height: 40rem;
-  width: auto;
-}
-
-#landing-portfolio-button {
-  padding: 6rem;
 }
 
 #primary-button {
@@ -129,6 +80,80 @@ border: 2px solid #E1CCBE;
   color: black;
   border: 2px solid black;
 }
+
+.container {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0;
+  padding: 0;
+}
+
+#highlight {
+  color:#e1c7b6;
+  font-weight: 700;
+}
+
+/*LANDING PAGE */
+
+
+#landing{
+  border: 2px solid red;
+  background-color: #6C8793;
+}
+
+#landing-quote{
+  border: 2px solid yellow;
+  background-color: #E1CCBE;
+  padding: 8%;
+  text-align: center;
+}
+
+#landing-portfolio {
+  border: 2px solid green;
+  background-color: #EEEDEB;
+  justify-content: space-around;
+  padding: 1rem;
+  padding-top: 8rem;
+}
+
+#landing-info {
+  padding: 16rem 8rem 16rem 16rem;
+}
+
+#landing-image {
+  width: 50vw;
+  height: auto;
+  padding: 8rem 8rem 8rem 2rem;
+}
+
+
+#landing-portfolio-item {
+  height: 40rem;
+  width: auto;
+}
+
+#landing-portfolio-button {
+  padding: 6rem;
+}
+
+/* ABOUT PAGE */
+
+#about-info {
+  padding: 0rem 4rem 4rem 10rem;
+}
+
+#about {
+  padding: 4rem;
+  /* border: 2px solid purple; */
+  margin-top: 6rem;
+}
+
+#about-image {
+  width: 40vw;
+  height: auto;
+  padding: 0rem 8rem 8rem 2rem;
+}
+
 
 
 @media (prefers-color-scheme: light) {

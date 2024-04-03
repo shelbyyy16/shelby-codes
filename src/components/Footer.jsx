@@ -15,10 +15,10 @@ function Footer() {
           © 2024 Shelby Pagan
           <div className="grey-text text-lighten-4 right" >       
             <Link to="https://www.linkedin.com/in/shelbypagan/" target="_blank">
-            <img src="public/images/linkedin.png" id ='icon' alt="LinkedIn Profile" width="20" height="20"></img>
+            <img src="/images/linkedin.png" id ='icon' alt="LinkedIn Profile" width="20" height="20"></img>
             </Link>
             <Link to="https://github.com/shelbyyy16" target="_blank">
-            <img src="public/images/github.png" id ='icon' alt="LinkedIn Profile" width="20" height="20"></img>
+            <img src="/images/github.png" id ='icon' alt="LinkedIn Profile" width="20" height="20"></img>
             </Link>
           </div>
         </div>

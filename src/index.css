@@ -9,11 +9,17 @@ body {
 }
 
 
-h1, h2, h3 {
+h1, h2, h3{
   color: #E1CCBE;
   margin:0rem;
   padding-left: 0.5rem;
   
+}
+
+h4{
+  color: #213547;
+  margin:1rem;
+  padding-left: 0.5rem;
 }
 
 h5, h6 {
@@ -160,6 +166,11 @@ border: 2px solid #E1CCBE;
   text-align: center;
   padding: 6rem;
 }
+
+.project-info {
+  text-align: center;
+}
+
 
 
 

@@ -74,7 +74,7 @@ border: 2px solid #E1CCBE;
     color: #EEEDEB;
     font-size: larger;
     font-family: "Libre Caslon Text", serif;
-    padding: 2rem 2.5rem 2rem 2.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
     text-align: center;
     margin: 4px 2px;
     cursor: pointer;
@@ -85,6 +85,25 @@ border: 2px solid #E1CCBE;
   background-color: #EEEDEB;
   color: black;
   border: 2px solid black;
+}
+
+#tertiary-button {
+  background-color: black;
+  border: 2px solid black;
+  color: #EEEDEB;
+  font-size: larger;
+  font-family: "Libre Caslon Text", serif;
+  padding: 2rem 2.5rem 2rem 2.5rem;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 3rem;
+}
+
+#tertiary-button:hover{
+background-color: #EEEDEB;
+color: black;
+border: 2px solid black;
 }
 
 .container {
@@ -150,7 +169,6 @@ border: 2px solid #E1CCBE;
 
 #about {
   padding: 4rem;
-  /* border: 2px solid purple; */
   margin-top: 6rem;
 }
 
@@ -168,9 +186,17 @@ border: 2px solid #E1CCBE;
 }
 
 .project-info {
+  position: absolute;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9); 
   text-align: center;
-}
+  justify-content: center;
+  width: 50vw;
+  height: auto;
+  padding: 1rem;
 
+}
 
 
 

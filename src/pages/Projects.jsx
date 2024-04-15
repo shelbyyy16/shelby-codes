@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import projectsData from "/public/projects.json"; 
+import projectsData from "/src/projects.json"; 
 
 function Projects() {
   const [hoveredProject, setHoveredProject] = useState(null); // State to track hovered project
@@ -18,8 +18,7 @@ function Projects() {
       </div>
       <div id="landing-portfolio" className="row">
         {projectsData.map((project, index) => (
-          <div className="col s4" key={index}>
-            <Link to={`/projects/${project.name}`}>
+          <div className="col s4" key={index}>      
               <img
                 src={project.image}
                 id="landing-portfolio-item"
@@ -28,16 +27,18 @@ function Projects() {
                 onMouseLeave={() => setHoveredProject(null)}
                 className="project-image" 
               />
-            </Link>
             {/* Display project info if hovered */}
             {hoveredProject === project && (
               <div className="project-info">
                 <h4>{project.name}</h4>
                 <p>{project.tagline}</p>
                 <p>{project.description}</p>
-                {/* Add buttons for live and GitHub links if needed */}
-                {/* <a href={project.live}>Live</a>
-                <a href={project.git}>GitHub</a> */}
+                <p><Link to={project.live}>
+                    <button id="secondary-button">View Live</button>
+                    </Link>
+                    <Link to={project.git}>
+                    <button id="secondary-button">GitHub</button>
+                    </Link> </p>
               </div>
             )}
           </div>
@@ -51,3 +52,5 @@ function Projects() {
     </>
   );
 }
+export default Projects;
+

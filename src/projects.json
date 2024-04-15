@@ -1,7 +1,7 @@
 [
     {
       "name": "SPL/T",
-      "tagline": "Effortless Expense Splitting for Seamless Friendships – Share the Load, Not the Stress!",
+      "tagline": "Share the Load, Not the Stress!",
       "description": "SPL/T is a Django and Python powered application designed to simplify the process of splitting expenses among friends. Create groups, add expenses, and effortlessly divide costs within your circles. Whether it's travel expenses, special events, or home-related costs, SPL/T ensures fairness and transparency. Say goodbye to the confusion and stress of splitting bills.",
       "live": "https://split-expense-deploy-b0bffae153fd.herokuapp.com/",
       "git": "https://github.com/shelbyyy16/Capstone-Project",
